@@ -11,9 +11,10 @@
 
 @interface ViewController : NSViewController
 
-@property (weak) IBOutlet NSTextView *textOutput;
+@property IBOutlet NSTextView *textOutput;
 @property (weak) IBOutlet NSTextField *textInputFile;
 @property (weak) IBOutlet NSTextField *textOutputDirectory;
+@property (weak) IBOutlet NSTextField *textLink;
 
 int cli_main(int argc, char * argv[]);
 

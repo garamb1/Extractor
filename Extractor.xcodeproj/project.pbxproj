@@ -12,53 +12,53 @@
 		A1398851279B762800C1E90C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1398850279B762800C1E90C /* Assets.xcassets */; };
 		A1398854279B762800C1E90C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1398852279B762800C1E90C /* Main.storyboard */; };
 		A1398856279B762800C1E90C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1398855279B762800C1E90C /* main.m */; };
-		A13988D5279B784200C1E90C /* gog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398863279B784000C1E90C /* gog.cpp */; };
-		A13988D6279B784200C1E90C /* goggalaxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398864279B784000C1E90C /* goggalaxy.cpp */; };
-		A13988D9279B784200C1E90C /* extract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398867279B784000C1E90C /* extract.cpp */; };
-		A13988DB279B784200C1E90C /* lzma.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A139886A279B784100C1E90C /* lzma.cpp */; };
-		A13988DC279B784200C1E90C /* block.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A139886C279B784100C1E90C /* block.cpp */; };
-		A13988DD279B784200C1E90C /* slice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A139886D279B784100C1E90C /* slice.cpp */; };
-		A13988DE279B784200C1E90C /* chunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A139886F279B784100C1E90C /* chunk.cpp */; };
-		A13988DF279B784200C1E90C /* file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398871279B784100C1E90C /* file.cpp */; };
-		A13988E1279B784200C1E90C /* log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A139887A279B784100C1E90C /* log.cpp */; };
-		A13988E2279B784200C1E90C /* process.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A139887B279B784100C1E90C /* process.cpp */; };
-		A13988E3279B784200C1E90C /* console.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A139887E279B784100C1E90C /* console.cpp */; };
-		A13988E4279B784200C1E90C /* encoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398887279B784100C1E90C /* encoding.cpp */; };
-		A13988E5279B784200C1E90C /* load.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398889279B784100C1E90C /* load.cpp */; };
-		A13988E6279B784200C1E90C /* time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398891279B784100C1E90C /* time.cpp */; };
-		A13988E7279B784200C1E90C /* windows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398895279B784100C1E90C /* windows.cpp */; };
-		A13988E8279B784200C1E90C /* permission.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398898279B784100C1E90C /* permission.cpp */; };
-		A13988E9279B784200C1E90C /* message.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A139889A279B784100C1E90C /* message.cpp */; };
-		A13988EA279B784200C1E90C /* version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A139889B279B784100C1E90C /* version.cpp */; };
-		A13988EB279B784200C1E90C /* component.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A139889C279B784100C1E90C /* component.cpp */; };
-		A13988EC279B784200C1E90C /* header.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A139889E279B784100C1E90C /* header.cpp */; };
-		A13988ED279B784200C1E90C /* run.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988A0279B784100C1E90C /* run.cpp */; };
-		A13988EE279B784200C1E90C /* delete.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988A1279B784100C1E90C /* delete.cpp */; };
-		A13988EF279B784200C1E90C /* language.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988A2279B784100C1E90C /* language.cpp */; };
-		A13988F0279B784200C1E90C /* item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988A4279B784100C1E90C /* item.cpp */; };
-		A13988F1279B784200C1E90C /* directory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988A6279B784100C1E90C /* directory.cpp */; };
-		A13988F2279B784200C1E90C /* data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988A7279B784100C1E90C /* data.cpp */; };
-		A13988F3279B784200C1E90C /* registry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988A9279B784100C1E90C /* registry.cpp */; };
-		A13988F4279B784200C1E90C /* file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988AC279B784100C1E90C /* file.cpp */; };
-		A13988F5279B784200C1E90C /* task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988AF279B784100C1E90C /* task.cpp */; };
-		A13988F6279B784200C1E90C /* ini.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988B1279B784100C1E90C /* ini.cpp */; };
-		A13988F7279B784200C1E90C /* icon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988B5279B784100C1E90C /* icon.cpp */; };
-		A13988F8279B784200C1E90C /* filename.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988B6279B784100C1E90C /* filename.cpp */; };
-		A13988F9279B784200C1E90C /* expression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988B8279B784100C1E90C /* expression.cpp */; };
-		A13988FA279B784200C1E90C /* info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988B9279B784100C1E90C /* info.cpp */; };
-		A13988FB279B784200C1E90C /* type.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988BC279B784100C1E90C /* type.cpp */; };
-		A13988FC279B784200C1E90C /* exereader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988BE279B784100C1E90C /* exereader.cpp */; };
-		A13988FD279B784200C1E90C /* offsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988BF279B784100C1E90C /* offsets.cpp */; };
-		A13988FF279B784200C1E90C /* md5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988C5279B784200C1E90C /* md5.cpp */; };
-		A1398900279B784200C1E90C /* hasher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988C6279B784200C1E90C /* hasher.cpp */; };
-		A1398901279B784200C1E90C /* adler32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988C7279B784200C1E90C /* adler32.cpp */; };
-		A1398902279B784200C1E90C /* checksum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988C8279B784200C1E90C /* checksum.cpp */; };
-		A1398903279B784200C1E90C /* crc32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988C9279B784200C1E90C /* crc32.cpp */; };
-		A1398904279B784200C1E90C /* sha1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988CB279B784200C1E90C /* sha1.cpp */; };
-		A1398905279B784200C1E90C /* arc4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988CE279B784200C1E90C /* arc4.cpp */; };
-		A1398907279B8AE300C1E90C /* debug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398865279B784000C1E90C /* debug.cpp */; };
-		A1F5F86027A5F91D00D1E1B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398866279B784000C1E90C /* main.cpp */; };
-		A1F5F86127A5F99000D1E1B3 /* release.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988C3279B784200C1E90C /* release.cpp */; };
+		A13988D5279B784200C1E90C /* gog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398863279B784000C1E90C /* gog.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988D6279B784200C1E90C /* goggalaxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398864279B784000C1E90C /* goggalaxy.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988D9279B784200C1E90C /* extract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398867279B784000C1E90C /* extract.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988DB279B784200C1E90C /* lzma.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A139886A279B784100C1E90C /* lzma.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988DC279B784200C1E90C /* block.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A139886C279B784100C1E90C /* block.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988DD279B784200C1E90C /* slice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A139886D279B784100C1E90C /* slice.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988DE279B784200C1E90C /* chunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A139886F279B784100C1E90C /* chunk.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988DF279B784200C1E90C /* file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398871279B784100C1E90C /* file.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988E1279B784200C1E90C /* log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A139887A279B784100C1E90C /* log.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988E2279B784200C1E90C /* process.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A139887B279B784100C1E90C /* process.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988E3279B784200C1E90C /* console.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A139887E279B784100C1E90C /* console.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988E4279B784200C1E90C /* encoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398887279B784100C1E90C /* encoding.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988E5279B784200C1E90C /* load.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398889279B784100C1E90C /* load.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988E6279B784200C1E90C /* time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398891279B784100C1E90C /* time.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988E7279B784200C1E90C /* windows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398895279B784100C1E90C /* windows.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988E8279B784200C1E90C /* permission.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398898279B784100C1E90C /* permission.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988E9279B784200C1E90C /* message.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A139889A279B784100C1E90C /* message.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988EA279B784200C1E90C /* version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A139889B279B784100C1E90C /* version.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988EB279B784200C1E90C /* component.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A139889C279B784100C1E90C /* component.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988EC279B784200C1E90C /* header.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A139889E279B784100C1E90C /* header.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988ED279B784200C1E90C /* run.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988A0279B784100C1E90C /* run.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988EE279B784200C1E90C /* delete.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988A1279B784100C1E90C /* delete.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988EF279B784200C1E90C /* language.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988A2279B784100C1E90C /* language.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988F0279B784200C1E90C /* item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988A4279B784100C1E90C /* item.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988F1279B784200C1E90C /* directory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988A6279B784100C1E90C /* directory.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988F2279B784200C1E90C /* data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988A7279B784100C1E90C /* data.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988F3279B784200C1E90C /* registry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988A9279B784100C1E90C /* registry.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988F4279B784200C1E90C /* file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988AC279B784100C1E90C /* file.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988F5279B784200C1E90C /* task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988AF279B784100C1E90C /* task.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988F6279B784200C1E90C /* ini.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988B1279B784100C1E90C /* ini.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988F7279B784200C1E90C /* icon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988B5279B784100C1E90C /* icon.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988F8279B784200C1E90C /* filename.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988B6279B784100C1E90C /* filename.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988F9279B784200C1E90C /* expression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988B8279B784100C1E90C /* expression.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988FA279B784200C1E90C /* info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988B9279B784100C1E90C /* info.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988FB279B784200C1E90C /* type.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988BC279B784100C1E90C /* type.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988FC279B784200C1E90C /* exereader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988BE279B784100C1E90C /* exereader.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988FD279B784200C1E90C /* offsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988BF279B784100C1E90C /* offsets.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A13988FF279B784200C1E90C /* md5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988C5279B784200C1E90C /* md5.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A1398900279B784200C1E90C /* hasher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988C6279B784200C1E90C /* hasher.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A1398901279B784200C1E90C /* adler32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988C7279B784200C1E90C /* adler32.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A1398902279B784200C1E90C /* checksum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988C8279B784200C1E90C /* checksum.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A1398903279B784200C1E90C /* crc32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988C9279B784200C1E90C /* crc32.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A1398904279B784200C1E90C /* sha1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988CB279B784200C1E90C /* sha1.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A1398905279B784200C1E90C /* arc4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988CE279B784200C1E90C /* arc4.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A1398907279B8AE300C1E90C /* debug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398865279B784000C1E90C /* debug.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A1F5F86027A5F91D00D1E1B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398866279B784000C1E90C /* main.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A1F5F86127A5F99000D1E1B3 /* release.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988C3279B784200C1E90C /* release.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
 		A1F5F86427ADD12500D1E1B3 /* liblzma.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F5F86327ADD12500D1E1B3 /* liblzma.dylib */; };
 		A1F5F86527ADD12500D1E1B3 /* liblzma.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = A1F5F86327ADD12500D1E1B3 /* liblzma.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A1F5F86827ADD17D00D1E1B3 /* libboost_iostreams.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F5F86727ADD17D00D1E1B3 /* libboost_iostreams.dylib */; };
@@ -643,7 +643,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -697,7 +697,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -711,6 +711,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Extractor/Extractor.entitlements;
 				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -734,7 +735,9 @@
 					"$(PROJECT_DIR)/xz/lib",
 					"$(PROJECT_DIR)/boost/lib",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-fuse-linker-plugin",
 					"-Wl,-search_paths_first",
@@ -756,6 +759,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Extractor/Extractor.entitlements;
 				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -780,6 +784,7 @@
 					"$(PROJECT_DIR)/xz/lib",
 					"$(PROJECT_DIR)/boost/lib",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-fuse-linker-plugin",

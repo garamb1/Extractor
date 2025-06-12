@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="23727"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -184,18 +185,18 @@
                                 </connections>
                             </button>
                             <scrollView fixedFrame="YES" borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qr5-1G-j3b">
-                                <rect key="frame" x="13" y="20" width="547" height="199"/>
+                                <rect key="frame" x="13" y="32" width="547" height="187"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <clipView key="contentView" drawsBackground="NO" id="c1s-vC-uU0">
-                                    <rect key="frame" x="0.0" y="0.0" width="547" height="199"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="547" height="187"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <textView editable="NO" importsGraphics="NO" richText="NO" verticallyResizable="YES" spellingCorrection="YES" smartInsertDelete="YES" id="wkO-hO-V13">
-                                            <rect key="frame" x="0.0" y="0.0" width="547" height="199"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="547" height="187"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                            <size key="minSize" width="547" height="199"/>
+                                            <size key="minSize" width="547" height="187"/>
                                             <size key="maxSize" width="547" height="10000000"/>
                                             <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                         </textView>
@@ -206,7 +207,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="aw3-CL-rBe">
-                                    <rect key="frame" x="531" y="0.0" width="16" height="199"/>
+                                    <rect key="frame" x="531" y="0.0" width="16" height="187"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
@@ -215,7 +216,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="AppIcon" id="A3j-ZY-Lgr"/>
                             </imageView>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wGW-qC-R4e">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wGW-qC-R4e">
                                 <rect key="frame" x="100" y="347" width="57" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Input file" id="pA8-0b-jTb">
@@ -224,7 +225,23 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oEZ-SU-URe">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="zgv-uH-XU1">
+                                <rect key="frame" x="11" y="8" width="31" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Visit" id="KTd-OD-u7A">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rpK-Ed-D2l">
+                                <rect key="frame" x="157" y="8" width="117" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="for more cool stuff" id="RdO-gt-6Kh">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oEZ-SU-URe">
                                 <rect key="frame" x="98" y="294" width="106" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Output Directory" id="qWh-J6-plh">
@@ -233,7 +250,7 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SbR-3a-24D">
+                            <textField focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SbR-3a-24D">
                                 <rect key="frame" x="100" y="318" width="376" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="edx-tn-uTJ">
@@ -242,7 +259,7 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UDU-Tw-6Qp">
+                            <textField focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UDU-Tw-6Qp">
                                 <rect key="frame" x="100" y="265" width="376" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="b6L-qL-cjq">
@@ -284,7 +301,7 @@
                                     <action selector="chooseInputFile:" target="XfG-lQ-9wD" id="jMH-QR-KOI"/>
                                 </connections>
                             </button>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X4w-fc-EhD">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X4w-fc-EhD">
                                 <rect key="frame" x="200" y="234" width="362" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="NOTE: This app has NO WARRANTY. Use at your risk!" id="XJF-Kv-xdC">
@@ -293,10 +310,27 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wNG-Ei-qJp">
+                                <rect key="frame" x="43" y="8" width="112" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Mac Source Ports" id="koe-wH-HcR">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="AccentColor"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                         </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="zgv-uH-XU1" secondAttribute="bottom" constant="8" id="Bcd-Qz-UaA"/>
+                            <constraint firstAttribute="bottom" secondItem="rpK-Ed-D2l" secondAttribute="bottom" constant="8" id="Ss4-Jt-uLs"/>
+                            <constraint firstItem="zgv-uH-XU1" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="13" id="dld-Rv-iSE"/>
+                            <constraint firstAttribute="bottom" secondItem="wNG-Ei-qJp" secondAttribute="bottom" constant="8" id="iTX-LS-6wm"/>
+                            <constraint firstItem="rpK-Ed-D2l" firstAttribute="leading" secondItem="wNG-Ei-qJp" secondAttribute="trailing" constant="5" id="kD3-Vj-eqN"/>
+                            <constraint firstItem="wNG-Ei-qJp" firstAttribute="leading" secondItem="zgv-uH-XU1" secondAttribute="trailing" constant="3" id="tXZ-fx-9b6"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="textInputFile" destination="SbR-3a-24D" id="ASE-OP-xki"/>
+                        <outlet property="textLink" destination="wNG-Ei-qJp" id="oiA-un-iAC"/>
                         <outlet property="textOutput" destination="wkO-hO-V13" id="rs9-hg-RVM"/>
                         <outlet property="textOutputDirectory" destination="UDU-Tw-6Qp" id="WTg-JN-RwN"/>
                     </connections>
@@ -308,5 +342,8 @@
     </scenes>
     <resources>
         <image name="AppIcon" width="128" height="128"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>

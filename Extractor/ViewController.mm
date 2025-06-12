@@ -13,6 +13,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [_textOutput setFont:[NSFont fontWithName:@"Courier New" size:10]];
+    
+    NSClickGestureRecognizer *click = [[NSClickGestureRecognizer alloc] initWithTarget:self action:@selector(myTextFieldClicked:)];
+    [self.textLink addGestureRecognizer:click];
+    
+    NSMutableAttributedString *str = [[self.textLink attributedStringValue] mutableCopy];
+
+    [str addAttribute:NSUnderlineStyleAttributeName value:[NSNumber numberWithInt:NSUnderlineStyleSingle] range:NSMakeRange(0, str.length)];
+
+    [self.textLink setAttributedStringValue:str];
+}
+
+- (void)myTextFieldClicked:(id)sender {
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://www.macsourceports.com"]];
 }
 
 - (void)viewDidAppear {
